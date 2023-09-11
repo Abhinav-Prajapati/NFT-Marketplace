@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Header from "./components/Header/Header";
+import Navbar from "./components/Header/Navbar";
 import Hero from "./components/Header/Hero";
 import Background from "@/components/Backgound";
 import Herolayout from "./components/Herolayout";
@@ -14,7 +14,7 @@ import HorizontalScrollCarouselWrapper from "./components/HorizontalWrapper";
 export default function Home() {
   return (
     <div>
-      <Header />
+      <Navbar/>
       <Hero />
 
       <HorizontalScrollCarouselWrapper start={0} end={1}>
