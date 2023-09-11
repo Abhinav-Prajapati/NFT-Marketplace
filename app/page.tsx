@@ -14,11 +14,11 @@ import HorizontalScrollCarouselWrapper from "./components/HorizontalWrapper";
 export default function Home() {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <Hero />
 
       <HorizontalScrollCarouselWrapper start={0} end={1}>
-        <div className="grid grid-cols-5 gap-96">
+        <div className="grid grid-cols-5 gap-[33rem]">
           {cards.map((card, index) => {
             return (
               <Card
@@ -35,7 +35,7 @@ export default function Home() {
       <FullPage />
 
       <HorizontalScrollCarouselWrapper start={1} end={0}>
-        <div className="grid grid-cols-5 gap-96">
+        <div className="grid grid-cols-5 gap-[33rem]">
           {cards.map((card, index) => {
             return (
               <Card
