@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 interface cardProps {
   title: string;
   description?: string;
-  image: string;
+  image: any;
 }
 
 const Card = ({ title, description, image }: cardProps) => {
